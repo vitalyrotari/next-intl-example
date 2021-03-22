@@ -1,0 +1,21 @@
+.root {
+  list-style: none;
+  display: flex;
+}
+
+.item {
+  margin: 0 4px;
+  user-select: none;
+}
+
+.item a {
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.active a {
+  color: #8e8e8e;
+  pointer-events: none;
+  text-decoration: underline;
+}
